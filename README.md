@@ -5,17 +5,12 @@ This is a online energy meter with rest api based on esp8266 and SDM energy mete
 The following hardware is required:
 ```
 - D1 mini (ESP8266)
-- Temperature sensor (DS18B20)
+- MAX485
+- SDM energy meter
 ```
 
 Connection:
-D1 mini -> DS18B20
-```
-5V -> VCC (red)
-GND -> GND (black)
-D4 -> DQ (yellow)
-```
-![alt text](https://github.com/datjan/esp8266-homekit-tempsensor/blob/main/Schema.png?raw=true)
+![alt text](https://github.com/datjan/esp8266-sdm-energymeter/blob/main/Schaltplan.png?raw=true)
 
 ## Development
 This sketch is for following development environment
