@@ -60,10 +60,10 @@ index_page.h
 ```
 
 ## Show info
-Access webpage on http://<IPADDR>
+Access webpage on http://[IPADDR]
 ![alt text](https://github.com/datjan/esp8266-sdm-energymeter/blob/main/img_webpage.png?raw=true)
   
   
-Access rest api on GET http://<IPADDR>/rest
+Access rest api on GET http://[IPADDR]/rest
 ![alt text](https://github.com/datjan/esp8266-sdm-energymeter/blob/main/img_restapi.png?raw=true)
   
