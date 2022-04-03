@@ -33,6 +33,8 @@ const char* wifi_password = "xxx";
 ```
 
 Setup values from modbus in esp8266-sdm-energymeter.ino:
+
+Example: {0.00, [REGISTER NAME],[CUSTOM NAME],[UNIT]}
 ```
 //SDM72
 volatile sdm_struct sdmarr[] = {  
@@ -59,4 +61,9 @@ index_page.h
 
 ## Show info
 Access webpage on http://<IPADDR>
+![alt text](https://github.com/datjan/esp8266-sdm-energymeter/blob/main/img_webpage.png?raw=true)
+  
+  
 Access rest api on GET http://<IPADDR>/rest
+![alt text](https://github.com/datjan/esp8266-sdm-energymeter/blob/main/img_restapi.png?raw=true)
+  
