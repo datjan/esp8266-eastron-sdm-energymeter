@@ -32,6 +32,13 @@ const char* wifi_ssid = "xxx";
 const char* wifi_password = "xxx";
 ```
 
+
+Setup modbus baud rate in esp8266-sdm-energymeter.ino:
+```
+SDM sdm(swSerSDM, 9600, 5, SWSERIAL_8N1, 3, 1);  
+```
+
+
 Setup values from modbus in esp8266-sdm-energymeter.ino:
 
 Example: {0.00, [REGISTER NAME],[CUSTOM NAME],[UNIT]}
