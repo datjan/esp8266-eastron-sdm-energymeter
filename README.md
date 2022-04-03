@@ -51,6 +51,7 @@ volatile sdm_struct sdmarr[] = {
   {0.00, SDM_PHASE_3_POWER, "001_SDM_PHASE_3_POWER", "W"}                                                  
 };
 ```
+The register names can be found in library "SDM_Energy_Meter" in file "SDM.h".
 
 ## Upload to device
 Following files needs to be uploaded to the ESP8266 (D1 mini)
