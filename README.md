@@ -10,6 +10,28 @@ The following hardware is required:
 ```
 
 Connection:
+
+D1 mini -> MAX485
+```
+3 / RX -> RO
+1 / TX -> DI
+5 / D1 -> DE + RE
+3V3 -> VCC 
+GND -> GND 
+```
+
+D1 mini -> Netzteil (5V)
+```
+5V -> + 
+GND -> - 
+```
+
+MAX485 -> Modbus energy meter (like SDM72)
+```
+A -> A 
+B -> B 
+```
+
 ![alt text](https://github.com/datjan/esp8266-sdm-energymeter/blob/main/Schaltplan.png?raw=true)
 
 ## Development
