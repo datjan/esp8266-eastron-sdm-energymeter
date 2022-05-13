@@ -1,5 +1,5 @@
 # esp8266-sdm-energymeter
-This is a online energy meter with rest api based on esp8266 and SDM energy meter
+This is a online information server with rest api based on esp8266 and Eastron SDM energy meter
 
 ## Hardware
 The following hardware is required:
