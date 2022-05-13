@@ -32,7 +32,7 @@ A -> A
 B -> B 
 ```
 
-![alt text](https://github.com/datjan/esp8266-sdm-energymeter/blob/main/Schaltplan.png?raw=true)
+![alt text](https://github.com/datjan/esp8266-eastron-sdm-energymeter/blob/main/Schaltplan.png?raw=true)
 
 ## Development
 This sketch is for following development environment
@@ -91,9 +91,9 @@ index_page.h
 
 ## Show info
 Access webpage on http://[IPADDR]
-![alt text](https://github.com/datjan/esp8266-sdm-energymeter/blob/main/img_webpage.png?raw=true)
+![alt text](https://github.com/datjan/esp8266-eastron-sdm-energymeter/blob/main/img_webpage.png?raw=true)
   
   
 Access rest api on GET http://[IPADDR]/rest
-![alt text](https://github.com/datjan/esp8266-sdm-energymeter/blob/main/img_restapi.png?raw=true)
+![alt text](https://github.com/datjan/esp8266-eastron-sdm-energymeter/blob/main/img_restapi.png?raw=true)
   
