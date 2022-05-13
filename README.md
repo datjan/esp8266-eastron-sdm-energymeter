@@ -1,4 +1,4 @@
-# esp8266-sdm-energymeter
+# esp8266-eastron-sdm-energymeter
 This is a online information server with rest api based on esp8266 and Eastron SDM energy meter
 
 ## Hardware
@@ -85,7 +85,7 @@ The register names can be found in library "SDM_Energy_Meter" in file "SDM.h".
 ## Upload to device
 Following files needs to be uploaded to the ESP8266 (D1 mini)
 ```
-esp8266-sdm-energymeter.ino
+esp8266-eastron-sdm-energymeter.ino
 index_page.h
 ```
 
